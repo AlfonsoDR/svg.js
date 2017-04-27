@@ -38,7 +38,7 @@ The document follows the conventions described in [“Keep a CHANGELOG”](http:
 ### Fixed
 
 ### Removed
-
+- removed PhantomJS as test browser due to [lack of support](https://groups.google.com/forum/#!topic/phantomjs/9aI5d-LDuNE)
 
 ## [2.6.1] - 2017-04-25
 
@@ -189,7 +189,7 @@ The document follows the conventions described in [“Keep a CHANGELOG”](http:
 - add error callback on image loading (#508)
 
 ### Fixed
-- fixed bug when getting bbox of text elements which are not in the dom (#514) 
+- fixed bug when getting bbox of text elements which are not in the dom (#514)
 - fixed bug when getting bbox of element which is hidden with css (#516)
 
 
